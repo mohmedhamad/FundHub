@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FunHub - Create Your Profile</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">
+                <div class="logo">FundHub</div>
+            </a>            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="profile.html">Apply</a></li>  
+                <li><a href="contact.html">Contact</a></li>                    
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="create-profile" class="create-profile-section">
+        <div class="content">
+            <h2>Create Your Profile</h2>
+            <form id="profileForm">
+                <label for="foundersName">Founder's Name:</label>
+                <input type="text" id="foundersName" name="foundersName" required>
+
+                <label for="startupName">Startup Name:</label>
+                <input type="text" id="startupName" name="startupName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="industry">Industry:</label>
+                <input type="text" id="industry" name="industry" required>
+
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" required>
+
+                <label for="brief">Brief:</label>
+                <textarea id="brief" name="brief" required></textarea>
+
+                <label for="videoLink">Link to Video:</label>
+                <input type="url" id="videoLink" name="videoLink" required>
+
+                <button type="button" id="applyBtn" class="apply-btn">APPLY</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="content">
+            <p>© 2024 FunHub. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
